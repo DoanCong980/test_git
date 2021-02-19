@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 60%;
+}
+
+#students td,
+#students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#students tr:hover {
+  background-color: #ddd;
+}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+#link {
+  float: right;
+  width: 100px;
+}
+
+.createForm {
+  margin-top: 30px;
+  width: 30%;
+}
+
+.site-calendar-demo-card {
+  margin-left: 100px;
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .site-calendar-demo-card {
+  border: 1px solid #303030;
+}
+
+.ant-picker-date-panel .ant-picker-content th{
+  text-align: center;
 }
